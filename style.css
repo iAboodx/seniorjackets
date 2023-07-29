@@ -205,19 +205,21 @@ img {
 }
 
 #uploaded7 {
-	margin: 50px 0 340px 550px;
+	margin: 50px 0 345px 550px;
 	max-width: 170px;
+	z-index: 1;
 }
 
 #uploaded8 {
 	margin-left: 545px;
-	max-width: 220px;
+	margin-top: -70px;
+	max-width: 230px;
 }
 
 #uploaded9 {
-	margin: 50px 0 -155px 550px;
+	margin: 50px 0 -175px 550px;
 	max-width: 170px;
-
+	z-index: 1;
 }
 
 .cal {
