@@ -1,0 +1,42 @@
+.custom-select {
+  background-color: #001620;
+  color: white;
+  padding: 5px 15px;
+  border: 1px solid transparent;
+}
+.slct {
+  margin-top: 20px;
+}
+.numerc {
+
+}
+.numerc input {
+  display:  inline-flex;
+  margin-left: 20px;
+  left: 0;
+  padding: 5px 10px;
+  max-width: 9%;
+  background-color: rgb(238, 247, 255);
+}
+.numerc p {
+  display: inline-flex;
+}
+
+@media only screen and (max-width: 900px) {
+  .calucator {
+    width: auto;
+    margin-top: 90px;
+    height: fit-content;
+    font-size: small;
+  }
+  .calucator h1 {
+    font-size: 25px;
+  }
+  .items h4 {
+    font-size: 23px;
+  }
+  #quantity {
+    width: 50px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="jackets.css" />
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <script src="https://kit.fontawesome.com/0bbe47bc40.js" crossorigin="anonymous"></script>
+  <link
+  rel="stylesheet"
+  data-purpose="Layout StyleSheet"
+  title="Web Awesome"
+  href="/css/app-wa-8c8d788ad0ee06dbc9619ff907c22651.css?vsn=d"
+>
+
+  <link
+    rel="stylesheet"
+    href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css"
+  >
+</head>
+
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">A | B STORE</h2>
+      <div class="toggle"></div>
+    </header>
+    <div class="overlay"></div>
+    <div class="text">
+      <div class="discount">
+        <i class="fa fa-dollar discounticon"></i>
+        <i class="fa-duotone fa-circle-xmark" id="exit"></i>
+
+        <img src="../leather.png">
+        <br>
+        <img src="../line.png">
+        <br>
+        <img src="../cotton.png">
+        <br>
+        <img src="../line.png">
+        <br>
+        <img src="../hoodies.png">
+        <br>
+        <img src="../line.png">
+        <br>
+        <img src="../addon.png">
+        <br>
+
+        <p>
+
+        </p>
+       </div>
+      <div class="warps">
+        <div class="wrapper leathersleeve">
+          <div class="container">
+            <div class="top leather"></div>
+            <div class="bottom">
+              <div class="left">
+                <div class="details">
+                  <h1>Leather Sleeves</h1>
+                </div>
+                <div class="buy buyleather"><i class="fa-solid fa-cart-plus"></i></div>
+              </div>
+              <div class="right">
+                <div class="done"><i class="fa-solid fa-square-check">done</i></div>
+                <div class="details">
+                  <h1>Chair</h1>
+                  <h4 class="pricetag">Added to your cart</h4>
+                </div>
+                <div class="remove"><i class="material-icons">clear</i></div>
+              </div>
+            </div>
+          </div>
+          <div class="inside">
+            <div class="icon"><i class="fa-solid fa-circle-info"></i></div>
+            <div class="contents">
+              <table>
+                <tr>
+                  <th><i class="fa-solid fa-shirt"></i> The jacket body made of 250GSM Cotton & Fleece with rexine
+                    material for the sleeves</th>
+                  <th><i class="fa-solid fa-cloud-showers-heavy"></i> The jacket material well selected based on the
+                    weather conditions in GCC, which mean you can wear this jacket in summer, autumn , winter and
+                    spring.
+                  </th>
+                  <th><i class="fa-solid fa-image"></i> The price shown includes three design's for free! Back design
+                    with
+                    name , front initial (numbers or letters only) and one logo of your choice on one of the sleeves!
+                  </th>
+
+                </tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper fullcotton">
+          <div class="container">
+            <div class="top fcton"></div>
+            <div class="bottom">
+              <div class="left">
+                <div class="details">
+                  <h1>Full Cotton</h1>
+                </div>
+                <div class="buy buycotton"><i class="fa-solid fa-cart-plus"></i></div>
+              </div>
+              <div class="right">
+                <div class="done"><i class="fa-solid fa-square-check">done</i></div>
+                <div class="details">
+                  <h1>Chair</h1>
+                  <h4 class="pricetag">Added to your cart</h4>
+                </div>
+                <div class="remove"><i class="material-icons">clear</i></div>
+              </div>
+            </div>
+          </div>
+          <div class="inside">
+            <div class="icon"><i class="fa-solid fa-circle-info"></i></div>
+            <div class="contents">
+              <table>
+                <tr>
+                  <th><i class="fa-solid fa-shirt"></i> The jacket body made of 250GSM Cotton & Fleece</th>
+                  <th><i class="fa-solid fa-cloud-showers-heavy"></i> The jacket material well selected based on the
+                    weather conditions in GCC, which mean you can wear this jacket in summer, autumn , winter and
+                    spring.
+                  </th>
+                  <th><i class="fa-solid fa-image"></i> The price shown includes three design's for free! Back design
+                    with
+                    name , front initial (numbers or letters only) and one logo of your choice on one of the sleeves!
+                  </th>
+
+                </tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="calucator">
+        <button class="backbtn" onclick="backb()"><i class="fa-solid fa-arrow-left"></i>
+          BACK</button>
+        <h1>Jacket Calucator</h1>
+       
+          
+
+        <p class="note">The jacket price already includes 3 embroidery design, Back design with name, front inital , one
+          logo of your choice on one sleeve</p>
+        <a target="_blank" href="https://i.imgur.com/sdR20MG.png"><i class='fa fa-image'></i>
+          Show Example</a>
+        <a  class="discountbtn"><i class='fa fa-money'></i>
+          Bulk Order Prices</a>
+
+        <div class="items">
+          <h4>Jacket Add-on</h4>
+          <input id="itemid" class="item" type="text" disabled placeholder="Add a jacket">
+        </div>
+        <li><input onclick="addValue()" id="myCheck" type="checkbox" placeholder="Add Inner print"> Add inside print (on
+          layer)</li>
+        <li><input onclick="addValue2()" id="myCheck2" type="checkbox" placeholder="Add Logo number 4"> Add right sleeve
+          logo
+        </li>
+        <li><input onclick="addValue3()" id="myCheck3" type="checkbox" placeholder="Add Logo number 5"> Add logo on left
+          wrist
+        </li>
+        <li><input onclick="addValue4()" id="myCheck4" type="checkbox" placeholder="Add Logo number 6"> Add logo on
+          right wrist
+        </li>
+        <li><input onclick="addValue5()" id="myCheck5" type="checkbox" placeholder="Add Logo number 7"> Add quote in
+          back
+        </li>
+        <li><input onclick="addValue6()" id="myCheck6" type="checkbox" placeholder="Add Logo number 8"> Add one more
+          initial
+        </li>
+        <div id="totals">
+          <h4 id="totallabel">Total:
+            <h4 id="total">0</h4> AED
+          </h4>
+        </div>
+        <p class="note">*The showing price only for one jacket, the minimum jackets you can order is 3*</p>
+
+      </div>
+    </div>
+
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="../main/main.html">Main</a></li>
+
+      <li><a href="../pages/design your own.html">Designer</a></li>
+      <li><a href="./jackets.html">Jackets Calucator</a></li>
+      <li><a href="./shipping.html">Shipping Calucator</a></li>
+      <li><a href="./faq.html">FAQ</a></li>
+      <li><a href="#">Download form file</a></li>
+      <li><a href="./contact.html">Contact Us</a></li>
+      <li><a href="./about.html">About Us</a></li>
+
+    </ul>
+  </div>
+  
+  <script src="jackets.js">
+
+  </script>
+
+</body>
+
+</html>
