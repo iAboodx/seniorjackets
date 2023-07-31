@@ -36,6 +36,7 @@
     font-size: 23px;
   }
   #quantity {
-    width: 30rem;
+       max-width: 20%;
+
   }
 }
