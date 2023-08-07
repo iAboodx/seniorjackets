@@ -75,7 +75,7 @@ form .field label + span {
 	top: 12px;
 	left: 7%;
 	font-size: 2.5em;
-	text-shadow: 1px 2px 0 #cd6302;
+	text-shadow: 1px 2px 0 #a4f3ff;
 	-webkit-transition: all 333ms ease-in-out;
 	-moz-transition: all 333ms ease-in-out;
 	-o-transition: all 333ms ease-in-out;
@@ -111,11 +111,11 @@ form .field input[type="text"]:focus#msg, form .field textarea:focus#msg, form .
 }
 form .field input[type="text"]:focus + label, form .field textarea:focus + label, form .field input[type="text"].focused + label, form .field textarea.focused + label {
 	width: 18%;
-	background: #fd9638;
+	background: #a4f3ff;
 	color: #313a3d;
 }
 form .field input[type="text"].focused + label, form .field textarea.focused + label {
-	color: #fd9638;
+	color: #a4f3ff;
 }
 form .field:hover label {
 	width: 18%;
@@ -123,7 +123,7 @@ form .field:hover label {
 	color: white;
 }
 form input[type="submit"] {
-	background: #fd9638;
+	background: #a4f3ff;
 	color: white;
 	-webkit-appearance: none;
 	border: none;
@@ -144,9 +144,9 @@ form input[type="submit"] {
 }
 form input[type="submit"]:hover {
 	background: #313a3d;
-	color: #fd9638;
+	color: #a4f3ff;
 }
 form input[type="submit"]:focus {
 	outline: none;
-	background: #cd6302;
+	background: #a4f3ff;
 }
