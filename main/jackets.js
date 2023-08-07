@@ -158,3 +158,8 @@ exitbtn.addEventListener('click', (e) => {
     discount.style.display = "none"
 
 })
+
+let fillform = document.querySelector(".fillform")
+fillform.addEventListener('click', (e) => {
+    alert("Use PowerPoint App to Edit this file")
+})

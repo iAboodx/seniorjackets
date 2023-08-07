@@ -6,18 +6,42 @@
     <title>A | B STORE</title>
     <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/iAboodx/seniorjackets/main/image.ico">
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
 
 </head>
 <body>
-    <section class="showcase">
+    <section class="oops">
         <header>
           <h2 class="logo">A | B STORE</h2>
           <div class="toggle"></div>
         </header>
         <div class="overlay"></div>
         <div class="text">
-          <h2>COMING SOON</h2> 
-
+          <section id="hire">
+            <h1>Contact Us</h1>
+            
+            <form>
+                <div class="field name-box">
+                    <input type="text" id="name" placeholder="Who Are You?"/>
+                    <label for="name">Name</label>
+                    <span class="ss-icon">check</span>
+                </div>
+        
+                <div class="field email-box">
+                    <input type="text" id="email" placeholder="name@email.com"/>
+                    <label for="email">Email</label>
+                    <span class="ss-icon">check</span>
+                </div>
+        
+                <div class="field msg-box">
+                    <textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+                    <label for="msg">Msg</label>
+                    <span class="ss-icon">check</span>
+                </div>
+        
+                <input class="button" type="submit" value="Send" />
+          </form>
+        </section>
         </div>
         <ul class="social">
           <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
@@ -31,12 +55,22 @@
           <li><a href="./jackets.html">Jackets Calucator</a></li>
           <li><a href="./shipping.html">Shipping Calucator</a></li>
           <li><a href="./faq.html">FAQ</a></li>
-          <li><a href="#">Download form file</a></li>
+          <li><a href="https://raw.githubusercontent.com/iAboodx/seniorjackets/main/fill%20form.pptx" class="fillform">Download form file</a></li>
           <li><a href="./contact.html">Contact Us</a></li>
           <li><a href="./about.html">About Us</a></li>
 
         </ul>
       </div>
+      <script>
+        const menuToggles = document.querySelector('.toggle');
+        let menus = document.getElementById("select-name")
+
+        const showcases = document.querySelector('.oops');
+        menuToggles.addEventListener('click', () => {
+          menuToggles.classList.toggle('active');
+          showcases.classList.toggle('active');
+        })
+      </script>
       <script src="script.js"></script>
 </body>
 </html>
