@@ -213,3 +213,11 @@ header .logo
     font-size: 2em;
   }
 }
+#gradient-canvas {
+  width:100%;
+  height:100%;
+  --gradient-color-1: #c3e4ff; 
+  --gradient-color-2: #346683; 
+  --gradient-color-3: #2c3d58;  
+  --gradient-color-4: #8ac3d6;
+}
