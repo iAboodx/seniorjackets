@@ -78,10 +78,10 @@ function addValue2() {
 
 
     if (checkBox.checked == true) {
-        total2.innerText = totlaint + 15
+        total2.innerText = totlaint + 10
 
     } else if (checkBox.checked == false) {
-        total2.innerText = totlaint - 15
+        total2.innerText = totlaint - 10
 
     }
 
@@ -93,10 +93,10 @@ function addValue3() {
 
 
     if (checkBox.checked == true) {
-        total3.innerText = totlaint + 15
+        total3.innerText = totlaint + 10
 
     } else if (checkBox.checked == false) {
-        total3.innerText = totlaint - 15
+        total3.innerText = totlaint - 10
 
     }
 
@@ -108,10 +108,10 @@ function addValue4() {
 
 
     if (checkBox.checked == true) {
-        total4.innerText = totlaint + 15
+        total4.innerText = totlaint + 10
 
     } else if (checkBox.checked == false) {
-        total4.innerText = totlaint - 15
+        total4.innerText = totlaint - 10
 
     }
 
@@ -123,10 +123,10 @@ function addValue5() {
 
 
     if (checkBox.checked == true) {
-        total5.innerText = totlaint + 15
+        total5.innerText = totlaint + 10
 
     } else if (checkBox.checked == false) {
-        total5.innerText = totlaint - 15
+        total5.innerText = totlaint - 10
 
     }
 
@@ -138,10 +138,10 @@ function addValue6() {
 
 
     if (checkBox.checked == true) {
-        total6.innerText = totlaint + 15
+        total6.innerText = totlaint + 10
 
     } else if (checkBox.checked == false) {
-        total6.innerText = totlaint - 15
+        total6.innerText = totlaint - 10
 
     }
 

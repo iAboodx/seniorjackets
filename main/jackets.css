@@ -40,11 +40,11 @@ body {
 .wrapper .container .top {
   height: 80%;
   width: 100%;
-  background: url("../leather.jpeg") no-repeat center center;
+  background: url("../leather.jpg") no-repeat center center;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
-  background-size: 100%;
+
 }
 
 .wrapper .container .bottom {
@@ -243,7 +243,7 @@ body {
 .wrapper .container .fcton {
   height: 80%;
   width: 100%;
-  background: url("../cotton.jpg") no-repeat center center;
+  background: url("../cottons.jpg") no-repeat center center;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
